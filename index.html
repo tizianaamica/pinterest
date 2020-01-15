@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Pinterest</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,250px);
+            grid-gap: 5px;
+            justify-content: center;
+        }
+        .item{ /*look al feed*/
+            border-radius: 10px;
+            padding: 5px;
+            background: #f2f2f2;
+        }
+        .item img{
+            max-width: 100%;
+            border-radius: 10px;
+        } /*grande*/
+        .level-1{
+            grid-row-end: span 3;
+        } /*mediana*/
+        .level-2{
+            grid-row-end: span 2;
+        } /*pequeña*/
+        .level-3{
+            grid-row-end: span 1;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/imagenes/logo.png" width="30" height="30" alt="">
+        </a>
+    </nav>
+    <div class="container">
+        <div class="item level-1">
+            <img src="assets/imagenes/landing.jpg" alt="">
+        </div>
+         <div class="item level-3">
+            <img src="assets/imagenes/house.jpg" alt="">
+        </div>
+        <div class="item level-1">
+            <img src="assets/imagenes/landing1.jpg" alt="">
+        </div>
+        <div class="item level-3">
+            <img src="assets/imagenes/food.jpg" alt="">
+        </div>
+        <div class="item level-3">
+            <img src="assets/imagenes/background.jpg" alt="">
+        </div>
+        <div class="item level-2">
+            <img src="assets/imagenes/letras.jpg" alt="">
+        </div>
+        <div class="item level-2">
+            <img src="assets/imagenes/outfit.jpg" alt="">
+        </div>
+        <div class="item level-3">
+            <img src="assets/imagenes/art.jpg" alt="">
+        </div>
+        <div class="item level-1">
+            <img src="assets/imagenes/landing1.jpg" alt="">
+        </div>
+        <div class="item level-3">
+            <img src="assets/imagenes/city.jpg" alt="">
+        </div>
+        <div class="item level-2">
+            <img src="assets/imagenes/landing3.jpg" alt="">
+        </div>
+        <div class="item level-1">
+            <img src="assets/imagenes/outfit1.jpg" alt="">
+        </div>
+        <div class="item level-3">
+            <img src="assets/imagenes/city.jpg" alt="">
+        </div>
+        <div class="item level-2">
+            <img src="assets/imagenes/food.jpg" alt="">
+        </div>
+        <div class="item level-1">
+            <img src="assets/imagenes/landing.jpg" alt="">
+        </div>
+        <div class="item level-2">
+            <img src="assets/imagenes/outfit.jpg" alt="">
+        </div>
+        <div class="item level-3">
+            <img src="assets/imagenes/art.jpg" alt="">
+        </div>
+        <div class="item level-2">
+            <img src="assets/imagenes/letras.jpg" alt="">
+        </div>
+        <div class="item level-2">
+            <img src="assets/imagenes/food.jpg" alt="">
+        </div>
+        <div class="item level-2">
+            <img src="assets/imagenes/landing3.jpg" alt="">
+        </div>
+        <div class="item level-3">
+            <img src="assets/imagenes/art.jpg" alt="">
+        </div>
+        <div class="item level-3">
+            <img src="assets/imagenes/city.jpg" alt="">
+        </div>
+    </div>
+   </body>
+</html>
